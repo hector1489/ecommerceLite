@@ -4,7 +4,7 @@ import daisyui from 'daisyui'
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{html,js}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     'node_modules/daisyui/dist/**/*.js',
     'node_modules/react-daisyui/dist/**/*.js',
   ],
