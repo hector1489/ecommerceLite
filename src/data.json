@@ -1,3 +1,20 @@
 [
-    
+  {
+    "id": 1,
+    "urlImage": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+    "title": "Title 1",
+    "description": "Description 1",
+    "link": "https://example.com/link1",
+    "price": 5000,
+    "quantity": 0
+  },
+  {
+    "id": 2,
+    "urlImage": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+    "title": "Title 1",
+    "description": "Description 1",
+    "link": "https://example.com/link1",
+    "price": 5000,
+    "quantity": 0
+  }
 ]
