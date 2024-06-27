@@ -18,7 +18,7 @@ const CardsGallery = () => {
     <div className="flex flex-wrap justify-center gap-4 mt-4">
 
       {galleryData.map((item, index) =>(
-        <div key={index} className="card bg-base-100 w-96 shadow-xl">
+        <div key={index} className="card card-compact bg-base-100 w-96 shadow-xl">
         <figure>
           <img
             src={item.urlImage}
