@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { AppContext } from "../../context/GlobalState"
 import IRecord from "../../interfaces/IRecord"
+import './CardsGallery.css'
 
 const CardsGallery = () => {
 
@@ -15,10 +16,10 @@ const CardsGallery = () => {
 
   return (
 
-    <div className="flex flex-wrap justify-center gap-4 mt-4">
+    <div className="cardsGallery">
 
       {galleryData.map((item, index) =>(
-        <div key={index} className="card card-compact bg-base-100 w-96 shadow-xl">
+        <div key={index} className="card card-compact bg-neutral text-neutral-content w-96 shadow-xl">
         <figure>
           <img
             src={item.urlImage}
