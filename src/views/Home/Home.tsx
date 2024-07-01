@@ -1,16 +1,20 @@
-import { Banner, CardsGallery, Footer } from "../../components"
+import { Banner, CardsGallery, Footer, NavBar } from "../../components"
+import './Home.css'
 
 
 
 const Home = () => {
 
-    return(
-        <>
-            <Banner />
-            <CardsGallery />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Banner />
+      <div className="nav-home">
+        <NavBar />
+      </div>
+      <CardsGallery />
+      <Footer />
+    </>
+  )
 }
 
 export default Home
